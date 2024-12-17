@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+.container{
+    width: 1300px;
+    margin: auto;
+}
+.head_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1440px;
+    padding: 28px;
+}
+.head_ul_sec{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+}
+.head_ul_sec a{
+    color: white;
+}
+.head_ul_sec a:hover{
+    color: #00EEFF;
+    transition: 0.5s
+}
+h1{
+    font-size: 25px;
+    color: white;
+}
+header{
+    background-color: #1F242D;
+}
+.parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+h2{
+    color: white;
+    font-size: 30px;
+}
+h3{
+    color: white;
+    font-size: 50px;
+}
+p{
+    color: #FFFFFF;
+}
+.head_button{
+    width: 176px;
+    height: 45px;
+    background-color:#00EEFF ;
+    border-radius: 20px;
+    box-shadow: 2px 2px 3px 4px #00EEFF;
+    border: none;
+    font-weight: 500;
+    font-size: 20px;
+}
+span{
+    color: #00EEFF;
+}
+.first{
+    background-color: #323946;
+    width: 380px;
+    height: 369px;
+    align-items: center;
+    padding: 20px;
+    border-radius: 15px;
+}
+.head_main{
+    text-align: center;
+}
+button{
+    width: 151px;
+    height: 45px;
+    background-color:#00EEFF ;
+    border-radius: 20px;
+    box-shadow: 2px 2px 3px 4px #00EEFF;
+    border: none;
+    font-weight: 500;
+    font-size: 20px;
+}
+h4{
+    font-size: 20px;
+    color: white;
+}
+.main_parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.proekt img{
+    border-radius: 15px;
+}
+section{
+    background-color: #323946;
+    text-align: center;
+    padding: 80px;
+}
+.second_section{
+    background-color: #1F242D;
+   height: 867px;
+}
+.second_section{
+    text-align: center;
+}
+input{
+   width: 343px ;
+   height: 55px; 
+   background-color: #323946;
+   color: white;
+   margin: 10px;
+   border-radius: 14px;
+}
+.glav_input{
+    height: 280px;
+    width: 700px;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.foot{
+    background-color: #323946;
+}
+.foot h5{
+    color: white;
+}
+@media screen {
+        
+}
